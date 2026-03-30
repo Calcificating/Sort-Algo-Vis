@@ -73,10 +73,10 @@ This project wasnt originally published.
 It was just a fun little experiment thingy,
 going from a simpler implementation and somehow turning into this Pygame ver. (ported from Tkinter... *500+ lines to rewrite*)
 
-The code is in a single file, obviously
-UI and logic are somewhat chaotic (intentionally left as is for now)
-Explore it yourself, there are some constants so have fun with that too if you want
-**Requirement**:
+The code is in a single file, obviously.
+UI and logic are somewhat chaotic (intentionally left as is for now).
+Explore it yourself, there are some constants so have fun with that too if you want.
+* **Requirement**:
 ```bash
 py -m pip install pygame
 ```
