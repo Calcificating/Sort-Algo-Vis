@@ -1,38 +1,82 @@
-# Sort-Algo-Vis
+# Sort Algorithm Visualizer
 
-This is a small over-polished pygame generator based project for **Visualizing Sorting Algorithms** with int assigned bars.
-4th rewrite, Pygame port from Tkinter
+A fully interactive sorting algorithm visualizer built with Pygame.
+
+
+## What it does
+
+* Visualizes sorting algorithms in real time
+* Displays bars representing values being sorted
+* Animates comparisons, swaps, and partitions
+* Tracks internal operations like comparisons and swaps
+* Runs at ~60 FPS using a generator-based update loop
+
+---
+
+## Algorithms included
+
+Currently has **22 algorithms**, including:
+
+* Bubble Sort
+* Insertion Sort
+* Selection Sort
+* Merge Sort
+* Quick Sort
+* Heap Sort
+* Shell Sort
+* Radix Sort
+* Counting Sort
+* Tim Sort ...
+
+…and also some *questionable life choices* like:
+
+* Bogosort
+* Stooge Sort
+* Sleep Sort
+
+---
+
+### Keybinds
+* `SPACE` → Start / Pause
+* `S` / `→` → Step mode
+* `R` → Shuffle values
+* `+ / -` → Change speed
+* `H` → Toggle UI
+* `I` → Toggle info panel
+* `M` → Toggle sound
+* `F11` → Fullscreen
+* `ESC` → Back / Exit
+  
+---
 
 ## Extra info
 
-It has 22 total algorithms:
-- "Bubble Sort"
-- "Insertion Sort"
-- "Selection Sort"
-- "Merge Sort"
-- "Cocktail Shaker Sort"
-- "Bucket Sort"
-- "Shell Sort"
-- "Radix Sort",
-- "Quick Sort"
-- "Gnome Sort"
-- "Heap Sort"
-- "Comb Sort",
-- "Counting Sort"
-- "Pancake Sort"
-- "Tim Sort"
-- "Cycle Sort",
-- "Odd-Even Sort"
-- "Bogosort"
-- "Bitonic Sort"
-- "Sleep Sort",
-- "Stooge Sort" and
-- "Tree Sort"
+The visualizer tracks:
+* Comparisons
+* Swaps
+* Partitions
 
-Buttons, sliders and keybinds exist too for:
-controlling number of bars, algorithms, sound, HUD toggling, stepping, pausing and more.
-Theres a side panel for more info about the current algorithm. It shows space/time complexity (best/avarage/worst & space), core code block, fun facts and live counters.
+It also shows:
+* Time complexity (best / average / worst)
+* Space complexity
+* Short code snippets
+* Random facts abt each algorithm
 
-Did i mention it has sound too?
-Well isnt that like the most important part?
-No... but it gives some athmosphere to it.
+Each operation can generate sound using **procedurally generated waveforms**
+(no audio files cuz i love complex experimenting).
+
+---
+
+## Notes
+
+This project wasnt originally published.
+It was just a fun little experiment thingy,
+going from a simpler implementation and somehow turning into this Pygame ver. (ported from Tkinter... *500+ lines to rewrite*)
+
+The code is in a single file, obviously
+UI and logic are somewhat chaotic (intentionally left as is for now)
+Explore it yourself, there are some constants so have fun with that too if you want
+**Requirement**:
+```bash
+py -m pip install pygame
+```
