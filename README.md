@@ -34,5 +34,5 @@ controlling number of bars, algorithms, sound, HUD toggling, stepping, pausing a
 Theres a side panel for more info about the current algorithm. It shows space/time complexity (best/avarage/worst & space), core code block, fun facts and live counters.
 
 Did i mention it has sound too?
-> Well isnt that like the most important part?
+- Well isnt that like the most important part?
 No... but it gives some athmosphere to it.
