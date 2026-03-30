@@ -3,6 +3,7 @@
 Sorting algorithm visualizer v4 or idk i cant keep track of versions - Pygame port (was Tkinter)
 • 22 algorithms  •  Slightly devistating UI  •  Buttons and Sliders!  •  Useless extra info!  •  Sound
 • Generator based 60 fps loop
+smol note: some drawing code and helper parts were vibe coded for the pygame port
 """
 import pygame, sys, math, struct, random, time
 sys.setrecursionlimit(12000)
